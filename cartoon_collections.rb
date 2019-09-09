@@ -26,11 +26,7 @@ def find_the_cheese(array) # code an argument here
   array.any? { |cheese| 
     if cheese_types.include?(cheese) 
       then return cheese
-    
-    end
+    #end
   }
   return nil
-
-
-  
-end
+  end
