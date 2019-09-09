@@ -9,7 +9,7 @@ def summon_captain_planet(calls) # code an argument here
   # Your code here
   
   new=[]
-  calls.collect { |call| new.push(call.capitalize)}
+  calls.collect { |call| new.push(call.capitalize + "!")}
   
 end
 
