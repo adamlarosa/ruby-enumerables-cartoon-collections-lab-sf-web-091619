@@ -9,7 +9,7 @@ def summon_captain_planet(array) # code an argument here
   # Your code here
   
   new=[]
-  array.collect { |call|
+  array.collect { |call|}
   
 end
 
